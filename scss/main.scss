@@ -1,0 +1,29 @@
+@import './pages/header';
+@import './pages/cards';
+@import './pages/cars';
+@import './pages/main2';
+@import './pages/money';
+
+// *
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+// container
+.container{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+// ul
+ul{
+    list-style: none;
+}
+// a
+a{
+    text-decoration: none;
+}

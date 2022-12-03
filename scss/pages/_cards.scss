@@ -1,0 +1,233 @@
+.text5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 34px;
+    color: #333333;
+    margin-bottom: 45px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text6{
+    margin-bottom: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+    color: #333333;
+}
+
+.button5{
+    background: #547147;
+    border-radius: 40px;
+    padding: 12px 50px;
+    text-align: center;
+    width: 270px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.pr4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #888888;
+    margin-top: 23px;
+    margin-bottom: 28px;
+}
+
+.all5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 407px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.object{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inputSearch{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.189);
+    padding: 10px 30px;
+}
+
+#inputBtn{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.189);
+    padding: 10px 10px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.buttonn{
+    color: #000000;
+    font-family: 'Montserrat';
+    border-radius: 10px;
+    background-color: #547147;
+    color: #fff;
+    padding: 10px;
+}
+
+.buttonn:hover{
+    background-color: #DFA650;
+    color: #fff;
+}
+
+#action{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    gap: 30px;
+    top: 150px;
+    left: 39.8%;
+    background: #FFFFFF;
+    backdrop-filter: blur(25px);
+    padding: 50px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.189);
+    border-radius: 20px;
+    transition: all .5s ease;
+    transform: translateY(-380%);
+    z-index: 120;
+}
+
+#btn1{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.189);
+    padding: 10px 10px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.nameBtn{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.189);
+    padding: 10px 30px;
+}
+
+.bgs3{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: #000000;
+    opacity: 0.6;
+    display: none;
+}
+
+// responsive
+
+@media screen and (max-width: 565px){
+    #action{
+        left: 23%;
+    }
+    .nameBtn{
+        width: 100%;
+    }
+} 
+
+@media screen and (max-width: 435px){
+    .imgsNew{
+        width: 170px;
+    }
+    .text5{
+        font-size: 16px;
+        line-height: 20px;
+        width: 138px;
+    }
+    .text6{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .all5{
+        width: 170px;
+    }
+    .button5{
+        width: 140px;
+        padding: 6px 5px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .pr4{
+        font-size: 12px;
+    }
+
+} 
+
+@media screen and (max-width: 425px){
+    #action{
+        left: 15%;
+    }
+} 
+
+@media screen and (max-width: 385px){
+    .imgsNew{
+        width: 280px;
+    }
+    .text5{
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        width: 138px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text6{
+        font-size: 26px;
+        line-height: 24px;
+    }
+    .all5{
+        width: 280px;
+    }
+    .button5{
+        width: 140px;
+        padding: 6px 5px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .pr4{
+        font-size: 12px;
+    }
+
+}

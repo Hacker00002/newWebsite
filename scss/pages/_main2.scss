@@ -1,0 +1,316 @@
+.imgAll{
+    background: url(./../../img/rec1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 246px;
+    padding-bottom: 120px;
+    padding-left: 50px;
+    border-radius: 20px;
+}
+
+.button{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: #DFA650;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+
+.text2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 84px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 500px;
+}
+
+.button2{
+    font-style: normal;
+    background: #F6F1E4;
+    border-radius: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #333333;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 20px 30px;
+}
+.button2:hover{
+    background-color:#DFA650;
+    color: #FFFFFF;
+}
+
+#formAll{
+    position: absolute;
+    top: 10%;
+    right: 32%;
+    background: #FFFFFF;
+    backdrop-filter: blur(25px);
+    padding: 50px;
+    border-radius: 20px;
+    z-index: 10;
+    transition: all .5s ease;
+    transform: translateY(-200%);
+}
+
+.formAll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 370px;
+    gap: 20px;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pr2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #333333;
+}
+
+#name{
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#tel{
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#textarea{
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#button{
+    background: #547147;
+    border-radius: 40px;
+    padding: 16px 32px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    border: none;
+    cursor: pointer;
+}
+#button:hover{
+    background: #DFA650;
+    color: #FFFFFF;
+}
+
+.textAll1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.bg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background: #000000;
+    opacity: 0.6;
+    display: none;
+}
+
+.pr1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.fixed{
+    position: absolute;
+    left: 20px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 15;
+    transition: all .5s ease;
+    transform: translateX(-850%);
+}
+
+.text4{
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+}
+
+// responsive
+
+@media screen and (max-width: 995px){
+    .imgAll{
+        background-position: center;
+    }
+    form{
+        right: 25%;
+    }
+}
+
+@media screen and (max-width: 725px){
+    .text2{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .button2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 615px){
+    .imgAll{
+        background-position: center;
+    }
+    .text2{
+        font-size: 50px;
+    }
+    .button2{
+        padding: 15px 25px;
+    }
+}
+
+
+@media screen and (max-width: 575px){
+    .text2{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 32px;
+        width: 100%;
+    }
+    .button{
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .button2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .imgAll{
+        padding-top: 150px;
+        padding-bottom: 200px;
+        padding-left: 10px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:785px){
+    form{
+        right: 19%;
+    }
+}
+
+@media screen and (max-width:695px){
+    form{
+        right: 15%;
+    }
+}
+
+@media screen and (max-width:585px){
+    form{
+        right: 9%;
+    }
+    .fixed{
+        bottom: -50px;
+    }
+}
+
+@media screen and (max-width:535px){
+    form{
+        right: 5%;
+        width: 400px;
+    }
+    input{
+        width: 300px;
+    }
+    #textarea{
+        width: 300px;
+    }
+    .check{
+        flex-direction: column-reverse;
+    }
+    #button{
+        text-align: center;
+    }
+    .formAll{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:435px){
+    form{
+        padding: 20px;
+        width: 340px;
+    }
+    input{
+        width: 300px;
+    }
+    #textarea{
+        width: 300px;
+    }
+    #button{
+        width: 300px;
+    }
+    .pr1{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:335px){
+    form{
+        padding: 20px;
+        width: 290px;
+    }
+    input{
+        width: 250px;
+    }
+    #textarea{
+        width: 250px;
+    }
+    #button{
+        width: 250px;
+    }
+    .pr1{
+        width: 100%;
+    }
+}
